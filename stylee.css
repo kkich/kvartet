@@ -268,3 +268,165 @@ li {
 .list-inline-item {
     width: 25px;
 }
+
+
+/*Part 2*/
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+.body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: white;
+}
+
+section {
+    display: block;
+    background-color: white;
+}
+
+div {
+    display: block;
+}
+
+.element {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h3 {
+    page-break-after: avoid;
+    orphans: 3;
+    widows: 3;
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+i {
+    font-style: italic;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.textt {
+    margin-bottom: 0;
+}
+
+.font {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.box {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text-primary {
+    color: rgb(0, 115, 255);
+}
+
+.icons-1 .icons-item .icons-icon i {
+    font-size: 4.5rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+*, ::before {
+    box-sizing: border-box;
+}
+
+.icons-1 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.icons-1 .features-icons-item {
+    max-width: 20rem
+}
+
+.icons-1 .icons-item .icons-icon {
+    height: 7rem
+}
+
+.icons-1 .icons-item:hover .icons-icon i {
+    font-size: 5rem
+}
+
+@media (max-width: 767px) {
+    .box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .element {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .element {
+        flex: 33%;
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        max-width: 1140px;
+    }
+}
